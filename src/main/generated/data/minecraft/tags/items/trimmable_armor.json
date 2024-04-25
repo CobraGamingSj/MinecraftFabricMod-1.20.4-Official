@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraftmod:ruby_helmet",
+    "minecraftmod:smithing_template",
+    "minecraftmod:ruby_leggings",
+    "minecraftmod:ruby_boots"
+  ]
+}

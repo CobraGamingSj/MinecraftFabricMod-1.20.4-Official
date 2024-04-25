@@ -1,0 +1,7 @@
+// 1.20.4	2024-04-17T11:24:21.9776487	MinecraftMod/World Generation
+d4bd6de040eec879e85a03efa77a9813edb1dc37 data\minecraftmod\worldgen\placed_feature\ruby_ore_placed.json
+887326d9dd7ea0d0780bc91903b7215b0a3b5d06 data\minecraftmod\worldgen\placed_feature\green_sapphire_ore_placed.json
+ea2be4c1988bd025bb2b0e4aaadb66fed001976a data\minecraftmod\worldgen\configured_feature\green_sapphire_ore.json
+5621ab3e4c98870738632afd19bd0a26c0cdfbb0 data\minecraftmod\worldgen\configured_feature\ruby_ore.json
+224d3169474bc2cf76c747fbbaa8463cf4972d32 data\minecraftmod\worldgen\configured_feature\sapphire_ore.json
+ef615aaa7cea1ff9967cb2ce4da724840f3bc3cb data\minecraftmod\worldgen\placed_feature\sapphire_ore_placed.json

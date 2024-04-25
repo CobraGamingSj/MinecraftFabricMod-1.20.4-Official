@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraftmod:sapphire_ore",
+    "minecraftmod:deepslate_sapphire_ore",
+    "minecraftmod:green_sapphire_ore",
+    "minecraftmod:deepslate_green_sapphire_ore"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+"ruby_block_break": {
+  "subtitle": "minecraftmod.ruby_block_break",
+  "sounds": [
+    "minecraftmod:ruby_block_break"
+  ]
+},
+  "ruby_block_step": {
+    "subtitle": "minecraftmod.ruby_block_step",
+    "sounds": [
+      "minecraftmod:ruby_block_step"
+    ]
+  },
+  "ruby_block_place": {
+    "subtitle": "minecraftmod.ruby_block_place",
+    "sounds": [
+      "minecraftmod:ruby_block_place"
+    ]
+  },
+  "ruby_block_hit": {
+    "subtitle": "minecraftmod.ruby_block_hit",
+    "sounds": [
+      "minecraftmod:ruby_block_hit"
+    ]
+  },
+  "ruby_block_fall": {
+    "subtitle": "minecraftmod.ruby_block_fall",
+    "sounds": [
+      "minecraftmod:ruby_block_fall"
+    ]
+  },
+"taswell": {
+  "sounds": [
+    {
+      "name": "minecraftmod:taswell",
+      "stream": true
+    }
+  ]
+}
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraftmod",
+	"version": "${version}",
+	"name": "MinecraftMod",
+	"description": "This is a Fabric Mod which runs only on Minecraft Fabric 1.20.4",
+	"authors": [
+		"CobraGamingSJ"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/minecraftmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cobra.minecraftmod.MinecraftMod"
+		],
+		"client": [
+			"net.cobra.minecraftmod.MinecraftModClient"
+		],
+		"fabric-datagen": [
+			"net.cobra.minecraftmod.MinecraftModDataGenerator"
+		]
+	},
+	"mixins": [
+		"minecraftmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

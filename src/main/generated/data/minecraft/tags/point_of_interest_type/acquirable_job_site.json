@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraftmod:sound_poi",
+      "required": false
+    }
+  ]
+}

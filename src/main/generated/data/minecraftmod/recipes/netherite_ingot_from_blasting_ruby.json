@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 3.05,
+  "group": "ruby",
+  "ingredient": {
+    "item": "minecraftmod:ruby"
+  },
+  "result": "minecraft:netherite_ingot"
+}
