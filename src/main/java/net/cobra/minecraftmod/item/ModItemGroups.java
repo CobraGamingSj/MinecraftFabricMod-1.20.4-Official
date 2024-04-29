@@ -18,6 +18,8 @@ public class ModItemGroups {
                                  entries.add(ModItems.RADIANT);
                                  entries.add(ModItems.SAPPHIRE);
                                  entries.add(ModItems.GREEN_SAPPHIRE);
+                                 entries.add(ModItems.BLUE_GARNET);
+                                 entries.add(ModItems.PINK_GARNET);
                     }).build());
 
     public static void registerItemGroups() {

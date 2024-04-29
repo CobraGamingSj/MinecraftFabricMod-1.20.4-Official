@@ -15,6 +15,8 @@ public class ModItems {
     public static final Item RADIANT = registerItem("radiant", new Item(new FabricItemSettings()));
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item GREEN_SAPPHIRE = registerItem("green_sapphire", new Item(new FabricItemSettings()));
+    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new FabricItemSettings()));
+    public static final Item BLUE_GARNET = registerItem("blue_garnet", new Item(new FabricItemSettings()));
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item WOOD_PELLET = registerItem("wood_pellet", new Item(new FabricItemSettings()));
     public static final Item SMITHING_TEMPLATE = registerItem("smithing_template", new Item(new FabricItemSettings()));
@@ -31,16 +33,28 @@ public class ModItems {
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    //SAPPHIRE ARMOR
+
     public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",  new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    //SAPPHIRE TOOLS
+
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 4, 1.75f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new AxeItem(ModToolMaterial.SAPPHIRE, 8, 2.5f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SwordItem(ModToolMaterial.SAPPHIRE, 11, 3.5f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterial.SAPPHIRE, 4, 1.75f, new FabricItemSettings()));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new HoeItem(ModToolMaterial.SAPPHIRE, -6, 0, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RADIANT);
         entries.add(SAPPHIRE);
         entries.add(GREEN_SAPPHIRE);
+        entries.add(PINK_GARNET);
+        entries.add(BLUE_GARNET);
         entries.add(WOOD_PELLET);
         entries.add(ModItems.SMITHING_TEMPLATE);
     }
@@ -56,6 +70,11 @@ public class ModItems {
         entries.add(ModItems.RUBY_SHOVEL);
         entries.add(ModItems.RUBY_HOE);
           entries.add(ModItems.TASWELL);
+
+       entries.add(ModItems.SAPPHIRE_AXE);
+       entries.add(ModItems.SAPPHIRE_PICKAXE);
+       entries.add(ModItems.SAPPHIRE_HOE);
+       entries.add(ModItems.SAPPHIRE_SHOVEL);
    }
     private static void addToolsToCombatGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.RUBY_SWORD);
@@ -68,6 +87,7 @@ public class ModItems {
         entries.add(ModItems.SAPPHIRE_CHESTPLATE);
         entries.add(ModItems.SAPPHIRE_LEGGINGS);
         entries.add(ModItems.SAPPHIRE_BOOTS);
+        entries.add(ModItems.SAPPHIRE_SWORD);
     }
 
 
