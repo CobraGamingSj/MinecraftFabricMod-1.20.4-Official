@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraftmod:ruby"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "minecraftmod:ruby_leggings"
+  },
+  "template": {
+    "item": "minecraftmod:smithing_template"
+  }
+}

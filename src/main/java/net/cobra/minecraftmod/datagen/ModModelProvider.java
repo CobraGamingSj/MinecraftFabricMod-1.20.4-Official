@@ -26,6 +26,12 @@ public class ModModelProvider extends FabricModelProvider {
        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_SAPPHIRE_BLOCK);
        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_SAPPHIRE_ORE);
        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_GREEN_SAPPHIRE_ORE);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_GARNET_BLOCK);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_BLOCK);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_GARNET_ORE);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_BLUE_GARNET_ORE);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
     }
 
     @Override

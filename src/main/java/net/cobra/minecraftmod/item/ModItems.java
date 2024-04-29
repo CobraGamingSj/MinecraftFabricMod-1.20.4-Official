@@ -20,6 +20,7 @@ public class ModItems {
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item WOOD_PELLET = registerItem("wood_pellet", new Item(new FabricItemSettings()));
     public static final Item SMITHING_TEMPLATE = registerItem("smithing_template", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE_SMITHING_TEMPLATE = registerItem("sapphire_smithing_template", new Item(new FabricItemSettings()));
     public static final Item TASWELL = registerItem("taswell", new MusicDiscItem(7, ModSounds.C418_TASWEL, new FabricItemSettings().maxCount(1), 514));
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, 1.5f, new FabricItemSettings()));
@@ -57,6 +58,7 @@ public class ModItems {
         entries.add(BLUE_GARNET);
         entries.add(WOOD_PELLET);
         entries.add(ModItems.SMITHING_TEMPLATE);
+        entries.add(ModItems.SAPPHIRE_SMITHING_TEMPLATE);
     }
 //    private static void addBlocksToFunctionalBlocksGroup(FabricItemGroupEntries entries) {
 ////        entries.add(ModBlocks.GEM_CONVERTER);

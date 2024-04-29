@@ -25,6 +25,8 @@ public class ModBlocks {
         entries.add(ModBlocks.RADIANT_BLOCK);
         entries.add(ModBlocks.SAPPHIRE_BLOCK);
         entries.add(ModBlocks.GREEN_SAPPHIRE_BLOCK);
+        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+        entries.add(ModBlocks.BLUE_GARNET_BLOCK);
     }
     private static void addBlocksToNaturalBlocksItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.RUBY_ORE);
@@ -33,6 +35,10 @@ public class ModBlocks {
         entries.add(ModBlocks.DEEPSLATE_GREEN_SAPPHIRE_ORE);
         entries.add(ModBlocks.SAPPHIRE_ORE);
         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        entries.add(ModBlocks.DEEPSLATE_BLUE_GARNET_ORE);
+        entries.add(ModBlocks.BLUE_GARNET_ORE);
+        entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+        entries.add(ModBlocks.PINK_GARNET_ORE);
     }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -55,6 +61,19 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), FabricBlockSettings.create().strength(2.5f, 2.5f).sounds(BlockSoundGroup.STONE).hardness(2.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 9), FabricBlockSettings.create().strength(3.5f, 3.5f).sounds(BlockSoundGroup.STONE).hardness(3.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
+
+    public static final Block BLUE_GARNET_BLOCK = registerBlock("blue_garnet_block",
+            new Block(FabricBlockSettings.create().strength(5.5f, 5.0f).sounds(BlockSoundGroup.AMETHYST_CLUSTER).hardness(5.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.LIGHT_BLUE_GRAY)));
+    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
+            new Block(FabricBlockSettings.create().strength(5.5f, 5.0f).sounds(BlockSoundGroup.AMETHYST_CLUSTER).hardness(5.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.RAW_IRON_PINK)));
+    public static final Block BLUE_GARNET_ORE = registerBlock("blue_garnet_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), FabricBlockSettings.create().strength(7.0f, 6.0f).sounds(BlockSoundGroup.STONE).hardness(6.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.LAPIS_BLUE)));
+    public static final Block DEEPSLATE_BLUE_GARNET_ORE = registerBlock("deepslate_blue_garnet_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), FabricBlockSettings.create().strength(8.0f, 7.0f).sounds(BlockSoundGroup.STONE).hardness(7.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.BLUE)));
+    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), FabricBlockSettings.create().strength(7.0f, 6.0f).sounds(BlockSoundGroup.STONE).hardness(6.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.PINK)));
+    public static final Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), FabricBlockSettings.create().strength(8.0f, 7.0f).sounds(BlockSoundGroup.STONE).hardness(7.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.TERRACOTTA_PINK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

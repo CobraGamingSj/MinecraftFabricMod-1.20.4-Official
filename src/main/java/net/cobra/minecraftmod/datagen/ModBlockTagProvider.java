@@ -33,7 +33,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAPPHIRE_ORE)
                 .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE)
                 .add(ModBlocks.GREEN_SAPPHIRE_ORE)
-                .add(ModBlocks.DEEPSLATE_GREEN_SAPPHIRE_ORE);
+                .add(ModBlocks.DEEPSLATE_GREEN_SAPPHIRE_ORE)
+
+                .add(ModBlocks.BLUE_GARNET_BLOCK)
+                .add(ModBlocks.BLUE_GARNET_ORE)
+                .add(ModBlocks.DEEPSLATE_BLUE_GARNET_ORE)
+                .add(ModBlocks.PINK_GARNET_BLOCK)
+                .add(ModBlocks.PINK_GARNET_ORE)
+                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SAPPHIRE_ORE)
@@ -47,7 +54,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.GREEN_SAPPHIRE_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+
+                .add(ModBlocks.BLUE_GARNET_BLOCK)
+                .add(ModBlocks.BLUE_GARNET_ORE)
+                .add(ModBlocks.DEEPSLATE_BLUE_GARNET_ORE)
+                .add(ModBlocks.PINK_GARNET_BLOCK)
+                .add(ModBlocks.PINK_GARNET_ORE)
+                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
 
 
     }

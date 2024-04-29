@@ -3,6 +3,7 @@
   "item.minecraftmod.radiant": "Radiant",
   "item.minecraftmod.sapphire": "Sapphire",
   "item.minecraftmod.green_sapphire": "Green Sapphire",
+
   "block.minecraftmod.ruby_block": "Block of Ruby",
   "block.minecraftmod.ruby_ore": "Ruby Ore",
   "block.minecraftmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
@@ -13,6 +14,14 @@
   "block.minecraftmod.radiant_block": "Block of Radiant",
   "block.minecraftmod.sapphire_block": "Sapphire Block",
   "block.minecraftmod.green_sapphire_block": "Green Sapphire Block",
+
+  "block.minecraftmod.blue_garnet_block": "Blue Garnet Block",
+  "block.minecraftmod.pink_garnet_block": "Pink Garnet Block",
+  "block.minecraftmod.blue_garnet_ore": "Blue Garnet Ore",
+  "block.minecraftmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.minecraftmod.deepslate_blue_garnet_ore": "Deepslate Blue Garnet Ore",
+  "block.minecraftmod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
+
   "item.minecraftmod.pineapple": "Pineapple",
   "item.minecraftmod.wood_pellet": "Wood Pellet",
   "item.minecraftmod.ruby_pickaxe": "Ruby Pickaxe",
@@ -38,9 +47,10 @@
   "item.minecraftmod.sapphire_boots": "Sapphire Boots",
 
   "item.minecraftmod.smithing_template": "Smithing Template",
+  "item.minecraftmod.sapphire_smithing_template": "Smithing Template",
   "item.minecraftmod.smithing_template.desc": "Ruby Upgrade",
   "entity.minecraft.villager.jeweller": "Jeweller",
-  "item.minecraftmod.taswell": "Music Disc - Taswell",
+  "item.minecraftmod.taswell": "Music Disc",
   "item.minecraftmod.taswell.desc": "C418 - Taswell",
   "itemgroup.ruby": "Gemstones",
 

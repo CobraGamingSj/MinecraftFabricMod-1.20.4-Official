@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraftmod:ruby"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "minecraftmod:ruby_axe"
+  },
+  "template": {
+    "item": "minecraftmod:smithing_template"
+  }
+}

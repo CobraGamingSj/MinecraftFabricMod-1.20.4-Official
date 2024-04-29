@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraftmod:ruby"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "minecraftmod:ruby_helmet"
+  },
+  "template": {
+    "item": "minecraftmod:smithing_template"
+  }
+}
