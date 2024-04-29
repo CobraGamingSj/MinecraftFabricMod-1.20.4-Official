@@ -17,11 +17,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
      getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
              .add(ModItems.RUBY_HELMET)
-             .add(ModItems.SMITHING_TEMPLATE)
+             .add(ModItems.RUBY_CHESTPLATE)
              .add(ModItems.RUBY_LEGGINGS)
-             .add(ModItems.RUBY_BOOTS);
+             .add(ModItems.RUBY_BOOTS)
+
+                 .add(ModItems.SAPPHIRE_HELMET)
+                .add(ModItems.SAPPHIRE_CHESTPLATE)
+                .add(ModItems.SAPPHIRE_LEGGINGS)
+                .add(ModItems.SAPPHIRE_BOOTS);
 
      getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-             .add(ModItems.C418_TASWELL);
+             .add(ModItems.TASWELL);
     }
 }

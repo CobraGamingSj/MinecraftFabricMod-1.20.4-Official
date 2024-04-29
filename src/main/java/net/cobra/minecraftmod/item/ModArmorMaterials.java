@@ -11,7 +11,10 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     RUBY("ruby", 26, new int[] { 5, 10, 8, 5 }, 19,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5f, 0.25f, () -> Ingredient.ofItems(ModItems.RUBY));
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5f, 0.25f, () -> Ingredient.ofItems(ModItems.RUBY)),
+    SAPPHIRE("sapphire", 34, new int[] {7, 12, 10, 7}, 23,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0f, 0.5f, () -> Ingredient.ofItems(ModItems.SAPPHIRE))
+    ;
 
     private final String name;
     private final int durabilityMultiplier;

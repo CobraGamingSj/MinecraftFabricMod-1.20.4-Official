@@ -2,8 +2,12 @@
   "replace": false,
   "values": [
     "minecraftmod:ruby_helmet",
-    "minecraftmod:smithing_template",
+    "minecraftmod:ruby_chestplate",
     "minecraftmod:ruby_leggings",
-    "minecraftmod:ruby_boots"
+    "minecraftmod:ruby_boots",
+    "minecraftmod:sapphire_helmet",
+    "minecraftmod:sapphire_chestplate",
+    "minecraftmod:sapphire_leggings",
+    "minecraftmod:sapphire_boots"
   ]
 }

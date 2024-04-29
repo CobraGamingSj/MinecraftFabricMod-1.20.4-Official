@@ -1,7 +1,6 @@
 package net.cobra.minecraftmod.item;
 
 import net.cobra.minecraftmod.MinecraftMod;
-import net.cobra.minecraftmod.block.ModBlocks;
 import net.cobra.minecraftmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -19,7 +18,7 @@ public class ModItems {
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item WOOD_PELLET = registerItem("wood_pellet", new Item(new FabricItemSettings()));
     public static final Item SMITHING_TEMPLATE = registerItem("smithing_template", new Item(new FabricItemSettings()));
-    public static final Item C418_TASWELL = registerItem("taswell", new MusicDiscItem(7, ModSounds.C418_TASWEL, new FabricItemSettings().maxCount(1), 514));
+    public static final Item TASWELL = registerItem("taswell", new MusicDiscItem(7, ModSounds.C418_TASWEL, new FabricItemSettings().maxCount(1), 514));
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, 1.5f, new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItem("ruby_axe", new AxeItem(ModToolMaterial.RUBY, 6, 2.1f, new FabricItemSettings()));
@@ -31,6 +30,11 @@ public class ModItems {
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",  new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots", new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",  new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
@@ -51,7 +55,7 @@ public class ModItems {
         entries.add(ModItems.RUBY_AXE);
         entries.add(ModItems.RUBY_SHOVEL);
         entries.add(ModItems.RUBY_HOE);
-          entries.add(ModItems.C418_TASWELL);
+          entries.add(ModItems.TASWELL);
    }
     private static void addToolsToCombatGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.RUBY_SWORD);
@@ -59,6 +63,11 @@ public class ModItems {
         entries.add(ModItems.RUBY_CHESTPLATE);
         entries.add(ModItems.RUBY_LEGGINGS);
         entries.add(ModItems.RUBY_BOOTS);
+
+        entries.add(ModItems.SAPPHIRE_HELMET);
+        entries.add(ModItems.SAPPHIRE_CHESTPLATE);
+        entries.add(ModItems.SAPPHIRE_LEGGINGS);
+        entries.add(ModItems.SAPPHIRE_BOOTS);
     }
 
 

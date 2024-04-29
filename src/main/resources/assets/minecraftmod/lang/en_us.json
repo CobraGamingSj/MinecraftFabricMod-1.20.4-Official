@@ -20,10 +20,17 @@
   "item.minecraftmod.ruby_sword": "Ruby Sword",
   "item.minecraftmod.ruby_shovel": "Ruby Shovel",
   "item.minecraftmod.ruby_hoe": "Ruby Hoe",
+
   "item.minecraftmod.ruby_helmet": "Ruby Helmet",
   "item.minecraftmod.ruby_chestplate": "Ruby Chestplate",
   "item.minecraftmod.ruby_leggings": "Ruby Leggings",
   "item.minecraftmod.ruby_boots": "Ruby Boots",
+
+  "item.minecraftmod.sapphire_helmet": "Sapphire Helmet",
+  "item.minecraftmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.minecraftmod.sapphire_leggings": "Sapphire Leggings",
+  "item.minecraftmod.sapphire_boots": "Sapphire Boots",
+
   "item.minecraftmod.smithing_template": "Smithing Template",
   "item.minecraftmod.smithing_template.desc": "Ruby Upgrade",
   "entity.minecraft.villager.jeweller": "Jeweller",
